@@ -51,3 +51,9 @@ git checkout dev
 git checkout -b dev
 2、分支合并，master 分支上合并dev分支
 git merge dev
+
+六、bug 临时分支管理
+1、将当前工作现场隐藏
+git stash
+2、隐藏内容恢复
+git stash pop
