@@ -1,3 +1,4 @@
+Git 使用教程
 一、git 创建与文件提交
 1、git init把这个目录变成git可以管理的仓库
 git init
@@ -51,6 +52,7 @@ git checkout dev
 git checkout -b dev
 2、分支合并，master 分支上合并dev分支,合并某分支到当前分支
 git merge dev
+git merge --no-ff -m "merge fixed bug 404" issue-404
 3、删除dev分支
 git branch -d dev
 4、查看分支
