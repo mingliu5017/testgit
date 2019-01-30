@@ -21,3 +21,12 @@ git reset --hard HEAD~100
 git relog
 4、回退到固定版本
 git reset --hard 7c0f72c
+
+三、git 撤销修改与删除文件
+1、撤销未放到缓存区修改
+git checkout -- readme.txt
+2、git删除文件
+rm test.txt
+git commit -m "删除 test.txt"
+3、未提交时恢复
+git checkout -- test.txt
