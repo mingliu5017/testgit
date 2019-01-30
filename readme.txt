@@ -49,4 +49,5 @@ git branch dev
 git checkout dev
 或者
 git checkout -b dev
-
+2、分支合并，master 分支上合并dev分支
+git merge dev
