@@ -40,4 +40,13 @@ cat ./id_rsa.pub
 git remote add origin https://github.com/mingliu5017/testgit.git
 5、把本地库推送到远程仓库
 git push -u origin master
+6、远程库克隆到本地
+git clone https://github.com/mingliu5017/testgit.git
+
+五、创建与合并分支
+1、创建分支
+git branch dev
+git checkout dev
+或者
+git checkout -b dev
 
