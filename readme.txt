@@ -1,3 +1,4 @@
+一、git 创建与文件提交
 1、git init把这个目录变成git可以管理的仓库
 git init
 2、使用命令 git add readme.txt添加到暂存区里面去
@@ -8,3 +9,9 @@ git commit -m "readme.txt 提交"
 git status
 5、git diff 查看修改
 git diff readme.txt
+6、git log 查看提交日志
+git log --pretty=oneline
+
+二、版本回退
+1、git 回退上一版本
+git reset --hard HEAD^
