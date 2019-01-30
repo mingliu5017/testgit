@@ -77,3 +77,18 @@ git pull
 git pull origin master
 4、推送分支
 git push origin master
+
+八、git path 生成与使用
+1、提交的patch文件生成
+git format-patch -1 5392bd4c
+2、未提交的patch文件生成
+git diff readme.txt > readme.txt.patch
+3、检查patch 文件
+git apply --stat 0001-pc-git.patch
+4、检查能否应用成功
+git apply --check 0001-pc-git.patch
+5、打补丁
+git am < 0001-pc-git.patch
+6、手动打patch
+patch -p1 < 0001-pc-git.patch
+
