@@ -15,3 +15,9 @@ git log --pretty=oneline
 二、版本回退
 1、git 回退上一版本
 git reset --hard HEAD^
+2、git 回退到前100个版本
+git reset --hard HEAD~100
+3、获取git log版本号
+git relog
+4、回退到固定版本
+git reset --hard 7c0f72c
