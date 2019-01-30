@@ -31,6 +31,7 @@ rm test.txt
 git commit -m "删除 test.txt"
 3、未提交时恢复
 git checkout -- test.txt
+git checkout .
 
 四、远程仓库
 1、./ssh 下查看 SSH key
@@ -63,3 +64,15 @@ git branch -a
 git stash
 2、隐藏内容恢复
 git stash pop
+
+七、远程同步,多人协作
+1、显示所有远程仓库
+git remote -v
+2、下载远程仓库所有变动
+git fetch origin
+3、抓取分支
+git pull --set-upstream master origin/master
+git pull
+git pull origin master
+4、推送分支
+git push origin master
