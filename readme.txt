@@ -30,3 +30,14 @@ rm test.txt
 git commit -m "删除 test.txt"
 3、未提交时恢复
 git checkout -- test.txt
+
+四、远程仓库
+1、./ssh 下查看 SSH key
+cat ./id_rsa.pub
+2、登录github,打开” settings”中的SSH Keys页面，然后点击“Add SSH Key”,填上任意title，在Key文本框里黏贴id_rsa.pub文件的内容
+3、登录github上，然后在右上角找到“create a new repo”创建一个新的仓库。
+4、添加远程仓库，在本地的testgit仓库下运行命令
+git remote add origin https://github.com/mingliu5017/testgit.git
+5、把本地库推送到远程仓库
+git push -u origin master
+
