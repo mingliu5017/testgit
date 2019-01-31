@@ -10,7 +10,8 @@ git commit -m "readme.txt 提交"
 4、git status来查看是否还有文件未提交
 git status
 5、git diff 查看修改
-git diff readme.txt
+add前：git diff readme.txt
+add后：git diff --staged readme.txt
 6、git log 查看提交日志
 git log --pretty=oneline
 
@@ -30,6 +31,7 @@ git checkout -- readme.txt
 2、git删除文件
 rm test.txt
 git commit -m "删除 test.txt"
+git rm readme.txt
 3、未提交时恢复
 git checkout -- test.txt
 git checkout .
