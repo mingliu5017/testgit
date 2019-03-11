@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -Wall -pipe -fPIC -std=gnu99 -O2 -fmessage-length=0  -shared -Wl,-soname,libledring.so -o ../../output/libs/libledring.so CMakeFiles/ledring.dir/ledring.c.o 

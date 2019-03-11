@@ -1,0 +1,62 @@
+---- get_BT_Mac_addr Matches (16 in 5 files) ----
+uploadLog in fopen.c (\\10.28.8.19\nfsroot\guozheng.chen\cloudphone_sai\zhaoge_s1\vendor\amlogic\client\aml_migu_demo\src\vendor\homeserver) : 	pBTmac = get_BT_Mac_addr();
+json_make_request_data in json_engine.c (\\10.28.8.19\nfsroot\guozheng.chen\cloudphone_sai\zhaoge_s1\vendor\amlogic\client\aml_migu_demo\src\vendor\homeserver) : 	pBTmac = get_BT_Mac_addr();
+json_make_upgrade_data in json_engine.c (\\10.28.8.19\nfsroot\guozheng.chen\cloudphone_sai\zhaoge_s1\vendor\amlogic\client\aml_migu_demo\src\vendor\homeserver) : 	pBTmac = get_BT_Mac_addr();
+migumusicInit in json_engine.c (\\10.28.8.19\nfsroot\guozheng.chen\cloudphone_sai\zhaoge_s1\vendor\amlogic\client\aml_migu_demo\src\vendor\homeserver) : 	g_migu_devinfo.mac= pTestMac2;//get_BT_Mac_addr();
+network_cfg.c (\\10.28.8.19\nfsroot\guozheng.chen\cloudphone_sai\zhaoge_s1\vendor\amlogic\client\aml_migu_demo\src\lib_src\network_cfg) line 138 : char* get_BT_Mac_addr(void)
+network_cfg.h (\\10.28.8.19\nfsroot\guozheng.chen\cloudphone_sai\zhaoge_s1\vendor\amlogic\client\aml_migu_demo\src\lib_src\network_cfg) line 44 : ** FunctionName : get_BT_Mac_addr
+network_cfg.h (\\10.28.8.19\nfsroot\guozheng.chen\cloudphone_sai\zhaoge_s1\vendor\amlogic\client\aml_migu_demo\src\lib_src\network_cfg) line 50 : char* get_BT_Mac_addr(void);
+CGW_register in qlink.c (\\10.28.8.19\nfsroot\guozheng.chen\cloudphone_sai\zhaoge_s1\vendor\amlogic\client\aml_migu_demo\src\vendor\qlink) : 	deviceId = get_BT_Mac_addr();
+CGW_boot in qlink.c (\\10.28.8.19\nfsroot\guozheng.chen\cloudphone_sai\zhaoge_s1\vendor\amlogic\client\aml_migu_demo\src\vendor\qlink) : 	deviceId = get_BT_Mac_addr();
+Qlink_Register in qlink.c (\\10.28.8.19\nfsroot\guozheng.chen\cloudphone_sai\zhaoge_s1\vendor\amlogic\client\aml_migu_demo\src\vendor\qlink) : 	deviceId = get_BT_Mac_addr();
+Qlink_Boot in qlink.c (\\10.28.8.19\nfsroot\guozheng.chen\cloudphone_sai\zhaoge_s1\vendor\amlogic\client\aml_migu_demo\src\vendor\qlink) : 	deviceId = get_BT_Mac_addr();
+qlink_Thread in qlink.c (\\10.28.8.19\nfsroot\guozheng.chen\cloudphone_sai\zhaoge_s1\vendor\amlogic\client\aml_migu_demo\src\vendor\qlink) : 			deviceId = get_BT_Mac_addr();
+ap_config_notify_success in qlink.c (\\10.28.8.19\nfsroot\guozheng.chen\cloudphone_sai\zhaoge_s1\vendor\amlogic\client\aml_migu_demo\src\vendor\qlink) : 	deviceId = get_BT_Mac_addr();
+qlink_setep1 in qlink.c (\\10.28.8.19\nfsroot\guozheng.chen\cloudphone_sai\zhaoge_s1\vendor\amlogic\client\aml_migu_demo\src\vendor\qlink) : 	deviceId = get_BT_Mac_addr();
+ap_config_Thread in qlink.c (\\10.28.8.19\nfsroot\guozheng.chen\cloudphone_sai\zhaoge_s1\vendor\amlogic\client\aml_migu_demo\src\vendor\qlink) : 				deviceId = get_BT_Mac_addr();
+ap_config_Thread in qlink.c (\\10.28.8.19\nfsroot\guozheng.chen\cloudphone_sai\zhaoge_s1\vendor\amlogic\client\aml_migu_demo\src\vendor\qlink) : 				deviceId = get_BT_Mac_addr();
+---- contactId Matches (38 in 8 files) ----
+callingEventHandle in aml_cloudphone_main.c (\\10.28.8.19\nfsroot\guozheng.chen\cloudphone_sai\zhaoge_s1\vendor\amlogic\client\aml_migu_demo\src\vendor\cloudphone) : 	char contactId[50]={0};
+callingEventHandle in aml_cloudphone_main.c (\\10.28.8.19\nfsroot\guozheng.chen\cloudphone_sai\zhaoge_s1\vendor\amlogic\client\aml_migu_demo\src\vendor\cloudphone) : 	if((strcmp(pphoneNode->contactId, contactId) == 0)&&(strcmp(pphoneNode->user_phone_num, user_phone_num) == 0))
+callingEventHandle in aml_cloudphone_main.c (\\10.28.8.19\nfsroot\guozheng.chen\cloudphone_sai\zhaoge_s1\vendor\amlogic\client\aml_migu_demo\src\vendor\cloudphone) : 	gatPrintf( GAT_DEBUG,"contactId=%s, version=%s\n", pphoneNode->contactId, pphoneNode->version);
+search_callback in aml_cloudphone_main.c (\\10.28.8.19\nfsroot\guozheng.chen\cloudphone_sai\zhaoge_s1\vendor\amlogic\client\aml_migu_demo\src\vendor\cloudphone) : 	sprintf(phoneData.contactId, "%s",argv[2]);
+cloudphone_OnRecvCall_CB in aml_cloudphone_main.c (\\10.28.8.19\nfsroot\guozheng.chen\cloudphone_sai\zhaoge_s1\vendor\amlogic\client\aml_migu_demo\src\vendor\cloudphone) : 	char contactId[50]={0};
+cloudphoneThread in aml_cloudphone_main.c (\\10.28.8.19\nfsroot\guozheng.chen\cloudphone_sai\zhaoge_s1\vendor\amlogic\client\aml_migu_demo\src\vendor\cloudphone) : 						   pphoneNode->contactId, 20,
+cloudphone.cc (\\10.28.8.19\nfsroot\guozheng.chen\cloudphone_sai\zhaoge_s1\vendor\amlogic\client\aml_migu_demo\src\vendor\cloudphone) line 363 : int cloudphoneCall(char* phonenumber, char* contactId,int flag,int* psession) {
+cloudphoneCall in cloudphone.cc (\\10.28.8.19\nfsroot\guozheng.chen\cloudphone_sai\zhaoge_s1\vendor\amlogic\client\aml_migu_demo\src\vendor\cloudphone) : 	string _contactId;
+cloudphoneCall in cloudphone.cc (\\10.28.8.19\nfsroot\guozheng.chen\cloudphone_sai\zhaoge_s1\vendor\amlogic\client\aml_migu_demo\src\vendor\cloudphone) : 	_contactId = contactId;
+cloudphoneCall in cloudphone.cc (\\10.28.8.19\nfsroot\guozheng.chen\cloudphone_sai\zhaoge_s1\vendor\amlogic\client\aml_migu_demo\src\vendor\cloudphone) : 	if (!strcmp(contactId, "(null)"))
+cloudphoneCall in cloudphone.cc (\\10.28.8.19\nfsroot\guozheng.chen\cloudphone_sai\zhaoge_s1\vendor\amlogic\client\aml_migu_demo\src\vendor\cloudphone) : 		_contactId = "";
+cloudphoneCall in cloudphone.cc (\\10.28.8.19\nfsroot\guozheng.chen\cloudphone_sai\zhaoge_s1\vendor\amlogic\client\aml_migu_demo\src\vendor\cloudphone) : 	cout << "_contactId:" << _contactId << endl;
+cloudphoneCall in cloudphone.cc (\\10.28.8.19\nfsroot\guozheng.chen\cloudphone_sai\zhaoge_s1\vendor\amlogic\client\aml_migu_demo\src\vendor\cloudphone) : 		ret = CalloutById(session, _contactId, _phonenumber, flag);
+cloudphoneCall in cloudphone.cc (\\10.28.8.19\nfsroot\guozheng.chen\cloudphone_sai\zhaoge_s1\vendor\amlogic\client\aml_migu_demo\src\vendor\cloudphone) : 		ret = CalloutById(session, _contactId, _phonenumber, flag);
+cloudphone.h (\\10.28.8.19\nfsroot\guozheng.chen\cloudphone_sai\zhaoge_s1\vendor\amlogic\client\aml_migu_demo\src\vendor\cloudphone) line 127 : **              : contactId: contact id
+cloudphone.h (\\10.28.8.19\nfsroot\guozheng.chen\cloudphone_sai\zhaoge_s1\vendor\amlogic\client\aml_migu_demo\src\vendor\cloudphone) line 132 : int cloudphoneCall(char* phonenumber, char* contactId,int flag,int* session);
+search_callback in json_engine.c (\\10.28.8.19\nfsroot\guozheng.chen\cloudphone_sai\zhaoge_s1\vendor\amlogic\client\aml_migu_demo\src\vendor\homeserver) : 	sprintf(phoneData.contactId, "%s",argv[2]);
+semantic_hander in json_engine.c (\\10.28.8.19\nfsroot\guozheng.chen\cloudphone_sai\zhaoge_s1\vendor\amlogic\client\aml_migu_demo\src\vendor\homeserver) : 						if(strlen(phoneData.contactId) < 1)
+semantic_hander in json_engine.c (\\10.28.8.19\nfsroot\guozheng.chen\cloudphone_sai\zhaoge_s1\vendor\amlogic\client\aml_migu_demo\src\vendor\homeserver) : 								   if(strlen(phoneData.contactId) < 1)
+create_table in phonebook.c (\\10.28.8.19\nfsroot\guozheng.chen\cloudphone_sai\zhaoge_s1\vendor\amlogic\client\aml_migu_demo\src\lib_src\aml_core) : 		   "contactId		TEXT	NOT NULL," \
+phonebook.c (\\10.28.8.19\nfsroot\guozheng.chen\cloudphone_sai\zhaoge_s1\vendor\amlogic\client\aml_migu_demo\src\lib_src\aml_core) line 21 : void insert_contact(char * name, char * number, char * contactId, char * version, sqlite3 * db) {
+insert_contact in phonebook.c (\\10.28.8.19\nfsroot\guozheng.chen\cloudphone_sai\zhaoge_s1\vendor\amlogic\client\aml_migu_demo\src\lib_src\aml_core) : 	sprintf(sql, "INSERT INTO CONTACT VALUES ('%s', '%s', '%s', '%s')",name,  number,contactId,  version);
+update_contact in phonebook.c (\\10.28.8.19\nfsroot\guozheng.chen\cloudphone_sai\zhaoge_s1\vendor\amlogic\client\aml_migu_demo\src\lib_src\aml_core) : 	char *contactId = NULL;
+update_contact in phonebook.c (\\10.28.8.19\nfsroot\guozheng.chen\cloudphone_sai\zhaoge_s1\vendor\amlogic\client\aml_migu_demo\src\lib_src\aml_core) : 		contactId = cJSON_GetObjectItem(tasklist,"contactId")->valuestring;
+update_contact in phonebook.c (\\10.28.8.19\nfsroot\guozheng.chen\cloudphone_sai\zhaoge_s1\vendor\amlogic\client\aml_migu_demo\src\lib_src\aml_core) : 		if (contactId==NULL)
+update_contact in phonebook.c (\\10.28.8.19\nfsroot\guozheng.chen\cloudphone_sai\zhaoge_s1\vendor\amlogic\client\aml_migu_demo\src\lib_src\aml_core) : 			printf("contactId NULL!\n");
+update_contact in phonebook.c (\\10.28.8.19\nfsroot\guozheng.chen\cloudphone_sai\zhaoge_s1\vendor\amlogic\client\aml_migu_demo\src\lib_src\aml_core) : 		if(strcmp(contactId, "")==0)
+update_contact in phonebook.c (\\10.28.8.19\nfsroot\guozheng.chen\cloudphone_sai\zhaoge_s1\vendor\amlogic\client\aml_migu_demo\src\lib_src\aml_core) : 			printf("get contactId error!\n");
+update_contact in phonebook.c (\\10.28.8.19\nfsroot\guozheng.chen\cloudphone_sai\zhaoge_s1\vendor\amlogic\client\aml_migu_demo\src\lib_src\aml_core) : 		insert_contact(nickname, number, contactId, version, db);
+phonebook.h (\\10.28.8.19\nfsroot\guozheng.chen\cloudphone_sai\zhaoge_s1\vendor\amlogic\client\aml_migu_demo\src\lib_src\aml_core) line 9 : void insert_contact(char * name, char * number, char * contactId, char* version, sqlite3 * db);
+{anonphoneNode_t} in statusevent_manage.h (\\10.28.8.19\nfsroot\guozheng.chen\cloudphone_sai\zhaoge_s1\vendor\amlogic\client\aml_migu_demo\src\vendor\statuseventManage) :    char contactId[50];
+voipengine_api.h (\\10.28.8.19\nfsroot\guozheng.chen\cloudphone_sai\zhaoge_s1\vendor\amlogic\client\aml_migu_demo\src\vendor\cloudphone) line 230 : @param contactId 通信录ID
+voipengine_api.h (\\10.28.8.19\nfsroot\guozheng.chen\cloudphone_sai\zhaoge_s1\vendor\amlogic\client\aml_migu_demo\src\vendor\cloudphone) line 235 : int CalloutById(int session, std::string contactId, std::string phoneNumber, int callType);
+---- memcpy Matches (4 in 1 files) ----
+signal_interfaces_added in a2dp_ctl.c (\\10.28.8.19\nfsroot\guozheng.chen\cloudphone_sai\zhaoge_s1\vendor\amlogic\client\aml_migu_demo\src\lib_src\aml_btctl) : 			memcpy(TRANSPORT_OBJECT, object, strlen(object));
+signal_interfaces_added in a2dp_ctl.c (\\10.28.8.19\nfsroot\guozheng.chen\cloudphone_sai\zhaoge_s1\vendor\amlogic\client\aml_migu_demo\src\lib_src\aml_btctl) : 			memcpy(PLAYER_OBJECT, object, strlen(object));
+call_objManager_method in a2dp_ctl.c (\\10.28.8.19\nfsroot\guozheng.chen\cloudphone_sai\zhaoge_s1\vendor\amlogic\client\aml_migu_demo\src\lib_src\aml_btctl) : 				memcpy(TRANSPORT_OBJECT, object, strlen(object));
+call_objManager_method in a2dp_ctl.c (\\10.28.8.19\nfsroot\guozheng.chen\cloudphone_sai\zhaoge_s1\vendor\amlogic\client\aml_migu_demo\src\lib_src\aml_btctl) : 				memcpy(PLAYER_OBJECT, object, strlen(object));
+---- playermanager_event_callback Matches (5 in 2 files) ----
+aml_playermanager.cpp (\\10.28.8.19\nfsroot\guozheng.chen\cloudphone_sai\zhaoge_s1\vendor\amlogic\client\aml_migu_demo\src\lib_src\aml_playermanager) line 24 : playermanager_event_callback event_callback = NULL;
+aml_playermanager.cpp (\\10.28.8.19\nfsroot\guozheng.chen\cloudphone_sai\zhaoge_s1\vendor\amlogic\client\aml_migu_demo\src\lib_src\aml_playermanager) line 222 : void playermanager_set_eventcallback(playermanager_event_callback cb)
+aml_playermanager.h (\\10.28.8.19\nfsroot\guozheng.chen\cloudphone_sai\zhaoge_s1\vendor\amlogic\client\aml_migu_demo\src\lib_src\aml_playermanager) line 35 : typedef void (*playermanager_event_callback)(em_pm_playertype type, em_pm_playerevent e);
+aml_playermanager.h (\\10.28.8.19\nfsroot\guozheng.chen\cloudphone_sai\zhaoge_s1\vendor\amlogic\client\aml_migu_demo\src\lib_src\aml_playermanager) line 50 : ** Input Param  : playermanager_event_callback cb
+aml_playermanager.h (\\10.28.8.19\nfsroot\guozheng.chen\cloudphone_sai\zhaoge_s1\vendor\amlogic\client\aml_migu_demo\src\lib_src\aml_playermanager) line 54 : void playermanager_set_eventcallback(playermanager_event_callback cb);

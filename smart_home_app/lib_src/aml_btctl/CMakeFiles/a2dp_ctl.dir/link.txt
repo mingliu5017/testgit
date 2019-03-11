@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -Wall -pipe -fPIC -std=gnu99 -O2 -fmessage-length=0  -shared -Wl,-soname,liba2dp_ctl.so -o ../../output/libs/liba2dp_ctl.so CMakeFiles/a2dp_ctl.dir/a2dp_ctl.c.o 

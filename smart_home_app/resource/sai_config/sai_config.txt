@@ -1,0 +1,28 @@
+CORP sengled
+MicType 0
+MIC_RADIUS 0.0405 
+NFFT   512
+In_len      256     
+Fs 16000
+mic_num 6  
+speaker_num 1   
+doa_once false
+doa_result -1
+amplify 6.8   
+wakeupth 0.38  
+wakeupmode 1212   
+#
+AEC_ON 1
+WAKEUP_DENOISE_ON 1
+DEREVERB_ON 1
+ADAPTIVEBEAM_ON 1
+MONOEN_ON 1
+AGC_ON 1
+AECPOST_ON 1
+#
+BOARD 8   
+SAMPLE 1024
+LED_ON 0   
+CH_MAP 0,1,2,3,4,5,7,6   
+HW multi
+WAKEUP_SECONDTIME 0
