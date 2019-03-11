@@ -61,6 +61,8 @@ git merge --no-ff -m "merge fixed bug 404" issue-404
 git branch -d dev
 4、查看分支
 git branch -a
+5、切换到远程分支
+git checkout --track remotes/origin/master
 
 六、bug 临时分支管理
 1、将当前工作现场隐藏
