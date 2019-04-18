@@ -1,1 +1,0 @@
-/usr/bin/cc -fPIC -Wall -pipe -fPIC -std=gnu99 -O2 -fmessage-length=0  -shared -Wl,-soname,libaml_utils.so -o ../../output/libs/libaml_utils.so CMakeFiles/aml_utils.dir/base64.c.o CMakeFiles/aml_utils.dir/md5.c.o CMakeFiles/aml_utils.dir/util.c.o 

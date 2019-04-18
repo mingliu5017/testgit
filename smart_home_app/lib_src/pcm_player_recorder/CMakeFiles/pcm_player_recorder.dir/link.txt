@@ -1,1 +1,0 @@
-/usr/bin/c++ -fPIC -Wall -pipe -fPIC -std=c++11 -O2 -fmessage-length=0  -shared -Wl,-soname,libpcm_player_recorder.so -o ../../output/libs/libpcm_player_recorder.so CMakeFiles/pcm_player_recorder.dir/pcm_player.cpp.o CMakeFiles/pcm_player_recorder.dir/pcm_recorder.cpp.o 

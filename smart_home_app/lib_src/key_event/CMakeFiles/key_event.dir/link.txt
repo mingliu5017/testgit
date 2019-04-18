@@ -1,1 +1,0 @@
-/usr/bin/cc -fPIC -Wall -pipe -fPIC -std=gnu99 -O2 -fmessage-length=0  -shared -Wl,-soname,libkey_event.so -o ../../output/libs/libkey_event.so CMakeFiles/key_event.dir/KeyEvent.c.o CMakeFiles/key_event.dir/KeyEventProcess.c.o 

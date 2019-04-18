@@ -1,1 +1,0 @@
-/usr/bin/cc -fPIC -Wall -pipe -fPIC -std=gnu99 -O2 -fmessage-length=0  -shared -Wl,-soname,libaml_downloader.so -o ../../output/libs/libaml_downloader.so CMakeFiles/aml_downloader.dir/aml_downloader.c.o 
