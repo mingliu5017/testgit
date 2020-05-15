@@ -1,3 +1,8 @@
+Github : https://github.com/mingliu5017?tab=repositories
+账号：mingliu5017
+邮箱：673100664@qq.com
+密码：Lm3625285017
+
 *************  Git 使用教程 ****************
 
 一、git 创建与文件提交
@@ -14,6 +19,8 @@ add前：git diff readme.txt
 add后：git diff --staged readme.txt
 6、git log 查看提交日志
 git log --pretty=oneline
+7、查看所有提交记录
+git reflog
 
 二、版本回退
 1、git 回退上一版本
